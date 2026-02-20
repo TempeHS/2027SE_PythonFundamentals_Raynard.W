@@ -1,3 +1,4 @@
 indoor = input("")
-lindor = indoor.lower()
-print(lindor)
+lower = indoor.lower()
+print(lower)
+=
