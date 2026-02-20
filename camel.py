@@ -1,8 +1,6 @@
-name = input("input variable name")
-snake = ""
-for ch in name:
-    if ch.isupper():
-        snake += "_" + ch.lower()
-    else:
-        snake += ch
-print(snake)
+def camelT(cword):
+    word = input("varibleaname")
+    if word.isupper():
+        return True
+    
+def split(W):
