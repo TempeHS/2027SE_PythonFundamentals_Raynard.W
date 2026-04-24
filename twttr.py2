@@ -1,0 +1,14 @@
+def main():
+    text = input("What's your phrase?")
+    print(shorten(text))
+
+    def shorten(word):
+    result = ""
+    vowels = "aeiouAEIOU"
+    for ch in text:
+        if ch in vowels:
+            result += ch
+    return result
+
+    if __name__ == "__main__":
+        main()
