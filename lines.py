@@ -21,3 +21,6 @@ else:
     count += 1
 
 print(count)
+
+if__name__ == "__main__":
+main()
