@@ -9,7 +9,7 @@ def shorten(word):
     for ch in word:
         if ch not in vowels:
             result += ch
-        return result
+    return result
 
 
 if __name__ == "__main__":
