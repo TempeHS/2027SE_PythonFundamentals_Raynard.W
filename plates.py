@@ -1,13 +1,17 @@
 def main():
-    plate = input("Plate: ").strip()
-    print("Valid" if is_valid(plate) else "Invalid")
+    plate = input("Plate: ")
+    if is_valid(plate):
+        print(Valid)
+    else:
+        print("Invalid")
 
 
 def is_valid(plate: str):
     if not (2 <= len(plate) <= 6):
         return False
+    if not plate[0].isalpha() or not plate[1].isalpha():
+        return False
 
 
-return True
-if name == "main":
+if __name__ == "__main__":
     main()
